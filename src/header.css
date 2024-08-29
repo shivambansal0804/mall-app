@@ -1,0 +1,64 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .top-header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .header-options span {
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .black-banner {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent */
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .black-banner ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .black-banner ul li {
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .black-banner ul li:hover {
+    color: #ff4081; /* Hover effect color */
+  }
+  
+  .logo img {
+    height: auto; /* Adjust the height according to your design */
+    width: 100%;
+    margin-right: 30px;
+  }
